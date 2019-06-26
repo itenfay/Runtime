@@ -1,8 +1,10 @@
 ## Runtime
- Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了为分类添加属性。
+ Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了为[分类添加属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
 ### Preview
-![](https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif)
+<p><img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" align="center"></p>
+
+---
 
 ### 技术交流群(群号:155353383) 
 
