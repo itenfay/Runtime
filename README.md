@@ -1,10 +1,12 @@
 ## Runtime
- Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了为[分类添加属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
-
+Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+ 
 ---
 
 ### Preview
-<div text-align="center"><img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="414" height="736" /></div>
+<div align=center>
+    <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width=60% height=60% />
+</div>
 
 ---
 
@@ -171,6 +173,6 @@ static NSString *kHomeAddress = @"kHomeAddress";
 }
 ```
 
-这样就成功添加了一个属性。
+这样就成功添加了一个[分类属性]((https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m))。
 
 Runtime的封装主要实现都在`DYFRuntimeWrapper `类中，可以快速使用Runtime，具体的实现大家可以查看或下载Demo：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
