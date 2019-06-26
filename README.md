@@ -173,4 +173,4 @@ static NSString *kHomeAddress = @"kHomeAddress";
 
 这样就成功添加了一个[分类属性]((https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m))。
 
-Runtime的封装主要实现都在`DYFRuntimeWrapper `类中，可以快速使用Runtime，具体的实现大家可以查看或下载Demo：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
+Runtime的封装主要实现都在`DYFRuntimeWrapper`类中，可以快速使用Runtime，具体的实现大家可以查看或下载Demo：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
