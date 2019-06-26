@@ -4,7 +4,7 @@
 ---
 
 ### Preview
-<p><img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="414" height="736" text-align="center" /></p>
+<div text-align="center"><img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="414" height="736" /></div>
 
 ---
 
