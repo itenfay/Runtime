@@ -1,11 +1,9 @@
 ## Runtime
 Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
- 
----
 
 ### Preview
 <div align=center>
-    <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width=60% height=60% />
+    <img width=300 src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" />
 </div>
 
 ---
@@ -147,7 +145,7 @@ for (NSString *name in list) {
 }
 ```
 
-- 使用Runtime为分类添加属性
+- 添加分类属性
 1. 导入头文件`#import <objc/message.h>`
 2. 声明属性
 ```
