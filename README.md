@@ -7,11 +7,9 @@ Runtime的封装，一行代码就实现获取所有方法名，获取所有属�
 
 ## Preview
 
-<div align=center>
-    <img width=300 src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" />
+<div align=left>
+    <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="60%" />
 </div>
-
----
 
 ## 技术交流群(群号:155353383) 
 
