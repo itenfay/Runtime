@@ -3,22 +3,27 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
 ## Runtime
-Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+
+&emsp; Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+
+## 技术交流群(群号:155353383) 
+
+- 欢迎加入技术交流群，一起探讨技术问题。
+
+<div align=left>
+&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/qq155353383.jpg" width="20%" />
+</div>
 
 ## Preview
 
 <div align=left>
-    <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="40%" />
+&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="30%" />
 </div>
-
-## 技术交流群(群号:155353383) 
-
-欢迎加入技术交流群，一起探讨技术问题。<br />
-![](https://github.com/dgynfi/Runtime/raw/master/images/qq155353383.jpg)
 
 ## 使用说明
 
 - 导入头文件 
+
 ```
 #import "DYFRuntimeWrapper.h"
 ```
@@ -26,6 +31,7 @@ Runtime的封装，一行代码就实现获取所有方法名，获取所有属�
 ### Runtime应用介绍
 
 - 获取所有方法名，例如获取UITableView的方法名
+
 ```
 NSArray *list = [DYFRuntimeWrapper yf_getAllMethodsWithClass:[UITableView class]];
 
@@ -35,6 +41,7 @@ for (NSString *name in list) {
 ```
 
 - 获取所有属性名，例如获取UILabel的属性变量
+
 ```
 NSArray *list = [DYFRuntimeWrapper yf_getAllIvarsWithClass:[UILabel class]];
 
@@ -44,6 +51,7 @@ for (NSString *name in list) {
 ```
 
 - 添加一个方法
+
 ```
 + (void)load {
     [DYFRuntimeWrapper yf_addMethodWithClass:[self class] methodName:@"hello" impClass:[self class] impName:@"sayHello"];
@@ -64,6 +72,7 @@ for (NSString *name in list) {
 ```
 
 - 交换两个方法
+
 ```
 - (IBAction)exchangeMethod:(id)sender {
     [DYFRuntimeWrapper yf_exchangeMethodWithSourceClass:[self class] sourceSel:@selector(preload) targetClass:[self class] targetSel:@selector(refreshUI)];
@@ -97,6 +106,7 @@ for (NSString *name in list) {
 ```
 
 - 替换某个方法
+
 ```
 - (IBAction)replaceMethod:(id)sender {
     [DYFRuntimeWrapper yf_replaceMethodWithSourceClass:[self class] sourceSel:@selector(preload) targetClass:[self class] targetSel:@selector(refreshUI)];
@@ -105,6 +115,7 @@ for (NSString *name in list) {
 ```
 
 - 字典转模型
+
 ```
 - (IBAction)dictToModel:(id)sender {
     NSDictionary *dict = @{@"name": self.nameTF.text,
@@ -116,6 +127,7 @@ for (NSString *name in list) {
 ```
 
 - 归档解档
+
 ```
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -153,17 +165,20 @@ for (NSString *name in list) {
 1. 导入头文件`#import <objc/message.h>`
 
 2. 声明属性
+
 ```
 /** 居住地址 */
 @property (nonatomic, copy) NSString *address;
 ```
 
 3. 申明一个key值
+
 ```
 static NSString *kHomeAddress = @"kHomeAddress";
 ```
 
 4. 重写setter、getter方法
+
 ```
 // get方法
 - (NSString *)address {
@@ -178,4 +193,5 @@ static NSString *kHomeAddress = @"kHomeAddress";
 
 这样就成功添加了一个[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-Runtime的封装主要实现都在`DYFRuntimeWrapper`类中，可以快速使用Runtime，具体的实现大家可以查看或下载Demo：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
+Runtime 的封装主要实现都在  `DYFRuntimeWrapper`  类中，可以快速使用 Runtime，具体的实现大家可以查看或下载 Demo ：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
+
