@@ -1,17 +1,15 @@
-[如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/Runtime)
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/Runtime)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
 ## Runtime
 
-&emsp; Runtime的封装，一行代码就实现获取所有方法名，获取所有属性名，添加一个方法，交换两个方法，字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+Runtime的封装，一行代码实现获取所有方法名、获取所有属性名、添加一个方法、交换两个方法、字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-## 技术交流群(群号:155353383) 
-
-- 欢迎加入技术交流群，一起探讨技术问题。
+## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/qq155353383.jpg" width="20%" />
+&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## Preview
@@ -20,15 +18,15 @@
 &emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="30%" />
 </div>
 
-## 使用说明
+## Usage
 
-- 导入头文件 
+### 一、导入头文件 
 
 ```
 #import "DYFRuntimeWrapper.h"
 ```
 
-### Runtime应用介绍
+### 二、Runtime应用介绍
 
 - 获取所有方法名，例如获取UITableView的方法名
 
@@ -193,5 +191,5 @@ static NSString *kHomeAddress = @"kHomeAddress";
 
 这样就成功添加了一个[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-Runtime 的封装主要实现都在  `DYFRuntimeWrapper`  类中，可以快速使用 Runtime，具体的实现大家可以查看或下载 Demo ：[传送门](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)。
+Runtime的实现封装主要都在  `DYFRuntimeWrapper`  类中，导入即可快速使用Runtime，具体的实现大家可以**[查看或下载【Demo】](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)**。
 
