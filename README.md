@@ -4,7 +4,7 @@
 
 ## Runtime
 
-Runtime的封装，一行代码实现获取所有方法名、获取所有属性名、添加一个方法、交换两个方法、字典转模型和归档解档。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+Runtime的封装，一行代码实现字典转模型、归档解档、添加一个方法、交换两个方法、获取某类所有属性名和方法名。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
 ## Group (ID:614799921)
 
@@ -93,12 +93,15 @@ for (NSString *name in list) {
 - (NSString *)randomString {
     uint32_t a = arc4random_uniform(2);
     unsigned int len = (a == 1) ? 40 : 32;
+    
     char data[len];
+    
     for (int x = 0; x < len; x++) {
         uint32_t ar = arc4random_uniform(2);
         char ch = (char)(((ar == 1) ? 'A' : 'a') + (arc4random_uniform(26)));
         data[x] = ch;
     }
+    
     return [[NSString alloc] initWithBytes:data length:len encoding:NSUTF8StringEncoding];
 }
 ```
@@ -191,5 +194,4 @@ static NSString *kHomeAddress = @"kHomeAddress";
 
 这样就成功添加了一个[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-Runtime的实现封装主要都在  `DYFRuntimeWrapper` 类中，导入即可快速使用Runtime，具体的实现大家可以[查看Demo](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage) 或者克隆仓库`git clone https://github.com/dgynfi/Runtime.git`。
-
+Runtime的实现封装主要都在  `DYFRuntimeWrapper` 类中，导入即可快速使用Runtime，具体的实现大家可以[查看Demo](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)或者克隆仓库(`git clone https://github.com/dgynfi/Runtime.git`)。
