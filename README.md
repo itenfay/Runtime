@@ -12,7 +12,7 @@
 
 - [DYFRuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) - [Objective-C] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
-**注意：示例和调用API仍然可以做为参考。**
+**注意：示例和API调用仍然可以作为参考。**
 
 
 ## Runtime
