@@ -1,10 +1,24 @@
-[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/Runtime)
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/Runtime)。谢谢！(If this project can help you, please give it [a star](https://github.com/dgynfi/Runtime). Thanks!)
+
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
+
+## Warning
+
+**本项目中关于Runtime包装类及内部代码已被废弃，请使用以下 [Swift] 和 [Objective-C] 最新版本：**
+
+- [DYFSwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - [Swift] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+- [DYFRuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) - [Objective-C] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+**注意：示例和调用API仍然可以做为参考。**
+
+
 ## Runtime
 
-Runtime的封装，一行代码实现字典转模型、归档解档、添加一个方法、交换两个方法、获取某类所有属性名和方法名。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+Runtime包装和运用示例，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取某类所有属性名和方法名。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+
 
 ## Group (ID:614799921)
 
@@ -12,11 +26,13 @@ Runtime的封装，一行代码实现字典转模型、归档解档、添加一�
 &emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
+
 ## Preview
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="30%" />
 </div>
+
 
 ## Usage
 
@@ -26,7 +42,7 @@ Runtime的封装，一行代码实现字典转模型、归档解档、添加一�
 #import "DYFRuntimeWrapper.h"
 ```
 
-### 二、Runtime应用介绍
+### 二、Runtime 运用介绍
 
 - 获取所有方法名，例如获取UITableView的方法名
 
@@ -194,4 +210,4 @@ static NSString *kHomeAddress = @"kHomeAddress";
 
 这样就成功添加了一个[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-Runtime的实现封装主要都在  `DYFRuntimeWrapper` 类中，导入即可快速使用Runtime，具体的实现大家可以[查看Demo](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)或者克隆仓库(`git clone https://github.com/dgynfi/Runtime.git`)。
+Runtime 的实现封装主要都在 `DYFRuntimeWrapper` 类中，导入即可快速使用 Runtime，具体的实现大家可以查看[Demo](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)或者克隆仓库(`git clone https://github.com/dgynfi/Runtime.git`)。
