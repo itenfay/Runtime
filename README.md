@@ -4,7 +4,7 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
 
-## Warning
+## Notification
 
 **本项目中关于Runtime包装类及内部代码已被废弃，请使用以下 [Swift] 和 [Objective-C] 最新版本：**
 
