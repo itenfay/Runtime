@@ -1,4 +1,4 @@
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/Runtime)。谢谢！(If this project can help you, please give it [a star](https://github.com/dgynfi/Runtime). Thanks!)
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/Runtime)。谢谢！(If this project can help you, please give it [a star](https://github.com/chenxing640/Runtime). Thanks!)
 
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
@@ -8,29 +8,29 @@
 
 **本项目中关于Runtime包装类及内部代码已被废弃，请使用以下 [Swift] 和 [Objective-C] 最新版本：**
 
-- [DYFSwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - [Swift] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFSwiftRuntimeProvider](https://github.com/chenxing640/DYFSwiftRuntimeProvider) - [Swift] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
-- [DYFRuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) - [Objective-C] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFRuntimeProvider](https://github.com/chenxing640/DYFRuntimeProvider) - [Objective-C] Runtime包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
 **注意：示例和API调用仍然可以作为参考。**
 
 
 ## Runtime
 
-Runtime包装和运用示例，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取某类所有属性名和方法名。另外，在示例中也介绍了添加[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+Runtime包装和运用示例，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取某类所有属性名和方法名。另外，在示例中也介绍了添加[分类属性](https://github.com/chenxing640/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
 
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/Runtime/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/Runtime/raw/master/images/runtime-usage.gif" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/Runtime/raw/master/images/runtime-usage.gif" width="30%" />
 </div>
 
 
@@ -208,6 +208,6 @@ static NSString *kHomeAddress = @"kHomeAddress";
 }
 ```
 
-这样就成功添加了一个[分类属性](https://github.com/dgynfi/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
+这样就成功添加了一个[分类属性](https://github.com/chenxing640/Runtime/blob/master/RuntimeUsage/RuntimeUsage/Model/YFModel%2BAddingAttr.m)。
 
-Runtime的运用主要包装在`DYFRuntimeWrapper`类中，导入即可快速使用Runtime。欢迎大家查看[Demo](https://github.com/dgynfi/Runtime/tree/master/RuntimeUsage)或者克隆仓库(`git clone https://github.com/dgynfi/Runtime.git`)。
+Runtime的运用主要包装在`DYFRuntimeWrapper`类中，导入即可快速使用Runtime。欢迎大家查看[Demo](https://github.com/chenxing640/Runtime/tree/master/RuntimeUsage)或者克隆仓库(`git clone https://github.com/chenxing640/Runtime.git`)。
